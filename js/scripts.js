@@ -25,10 +25,9 @@ window.onload = function() {
     'Hi 👋',
     'I\'m Edric',
     'I code things',
-    'I\'m currently self-studying.<br> You can contact me at <a href="mailto:contact@edrict.me">contact@edrict.me</a>',
+    'I\'m self-studying<br> You can contact me at <a href="mailto:contact@edrict.me">contact@edrict.me</a>',
     '<a target="_blank" href="https://github.com/EdricTruong">github.com/EdricTruong</a>',
-    getCurrentTime(),
-    '👀 Edric'
+    getCurrentTime()
   ];
 
   const getFontSize = function () {
