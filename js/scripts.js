@@ -24,11 +24,11 @@ window.onload = function() {
   const messages = [
     'Hi 👋',
     'I\'m Edric',
-    'I code things on the web',
-    'I\'m currently accepting freelance work.<br> You can contact me at <a href="mailto:contact@edrict.me">contact@edrict.me</a>',
-    '<a target="_blank" href="https://twitter.com/juliangarnier">twitter.com/juliangarnier</a><br><a target="_blank" href="https://codepen.io/juliangarnier">codepen.io/juliangarnier</a><br><a target="_blank" href="https://github.com/juliangarnier">github.com/juliangarnier</a>',
+    'I code things',
+    'I\'m currently self-studying.<br> You can contact me at <a href="mailto:contact@edrict.me">contact@edrict.me</a>',
+    '<a target="_blank" href="https://github.com/EdricTruong">github.com/EdricTruong</a>',
     getCurrentTime(),
-    '👀 J.'
+    '👀 Edric'
   ];
 
   const getFontSize = function () {
@@ -61,7 +61,7 @@ window.onload = function() {
     }
   };
 
-  const getDimentions = function (elements) {
+  const getDimensions = function (elements) {
     return dimensions = {
       loading: {
         w: '4rem',
@@ -83,7 +83,7 @@ window.onload = function() {
     const elements = createBubbleElements(message, position);
     messagesEl.appendChild(elements.bubble);
     messagesEl.appendChild(document.createElement('br'));
-    const dimensions = getDimentions(elements);
+    const dimensions = getDimensions(elements);
     elements.bubble.style.width = '0rem';
     elements.bubble.style.height = dimensions.loading.h;
     elements.message.style.width = dimensions.message.w;
